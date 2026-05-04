@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title": "ফাঁসিয়াখালী ইউনিয়ন পরিষদ",
+    "subtitle": "চকরিয়া উপজেলা, কক্সবাজার জেলা, চট্টগ্রাম বিভাগ",
+    "description": "স্থানীয় সরকারের সর্বনিম্ন স্তর হিসেবে গ্রামীণ জনগোষ্ঠী ও রাষ্ট্রযন্ত্রের মধ্যে প্রাথমিক প্রশাসনিক সংযোগ মাধ্যম।",
+    "welcomeMessage": "ফাঁসিয়াখালী ইউনিয়ন পরিষদের ওয়েবসাইটে স্বাগতম"
+  },
+  "atAGlance": {
+    "title": "এক নজরে ফাঁসিয়াখালী",
+    "stats": [
+      { "label": "মোট জনসংখ্যা", "value": "৪০,১৯৭", "icon": "Users" },
+      { "label": "পুরুষ জনসংখ্যা", "value": "২১,০৪৫", "icon": "UserCheck" },
+      { "label": "মহিলা জনসংখ্যা", "value": "১৯,১৫২", "icon": "UserCheck" },
+      { "label": "মোট পরিবার", "value": "৫,৮৬০", "icon": "Home" },
+      { "label": "মোট আয়তন", "value": "৩৯.৩৭ বর্গ কি.মি.", "icon": "MapPin" },
+      { "label": "কৃষি জমি", "value": "৫,৪৩৪ একর", "icon": "Wheat" },
+      { "label": "মোট ওয়ার্ড", "value": "০৯", "icon": "LayoutGrid" },
+      { "label": "মোট ভোটার", "value": "১৫,২৩০", "icon": "Vote" }
+    ]
+  },
+  "quickLinks": {
+    "title": "ই-সেবা সমূহ",
+    "links": [
+      { "label": "ই-নামজারি", "description": "অনলাইন ভূমি নামজারি সেবা", "icon": "FileText", "href": "https://land.gov.bd" },
+      { "label": "ভূমি উন্নয়ন কর", "description": "অনলাইনে ভূমি কর পরিশোধ", "icon": "Receipt", "href": "https://ldtax.gov.bd" },
+      { "label": "জন্ম নিবন্ধন", "description": "ডিজিটাল জন্ম নিবন্ধন সেবা", "icon": "Baby", "href": "https://bdris.gov.bd" },
+      { "label": "মৃত্যু নিবন্ধন", "description": "ডিজিটাল মৃত্যু নিবন্ধন সেবা", "icon": "ScrollText", "href": "https://bdris.gov.bd" },
+      { "label": "পরীক্ষার ফলাফল", "description": "জাতীয় শিক্ষা বোর্ড ফলাফল", "icon": "GraduationCap", "href": "https://eboardresults.com" },
+      { "label": "জাতীয় তথ্য বাতায়ন", "description": "সরকারি তথ্য ও সেবা পোর্টাল", "icon": "Globe", "href": "https://bangladesh.gov.bd" }
+    ]
+  },
+  "emergencyHotlines": {
+    "title": "জরুরি হটলাইন",
+    "hotlines": [
+      { "number": "৯৯৯", "label": "জাতীয় জরুরি সেবা", "description": "পুলিশ, ফায়ার সার্ভিস, অ্যাম্বুলেন্স", "icon": "Phone", "color": "red" },
+      { "number": "৩৩৩", "label": "জাতীয় তথ্য বাতায়ন", "description": "সরকারি সেবা তথ্য ও অভিযোগ", "icon": "Info", "color": "blue" },
+      { "number": "১০৯", "label": "নারী ও শিশু নির্যাতন", "description": "নারী ও শিশু সহিংসতা প্রতিরোধ", "icon": "ShieldAlert", "color": "purple" },
+      { "number": "১০৯৮", "label": "শিশু সুরক্ষা", "description": "শিশু কল্যাণ ও সুরক্ষা হটলাইন", "icon": "Baby", "color": "pink" },
+      { "number": "১০২", "label": "ফায়ার সার্ভিস", "description": "অগ্নিকাণ্ড ও দুর্যোগ সতর্কতা", "icon": "Flame", "color": "orange" },
+      { "number": "১০৬", "label": "দুর্নীতি দমন কমিশন", "description": "দুদক বেনামে অভিযোগ হটলাইন", "icon": "Scale", "color": "amber" },
+      { "number": "১৬১২২", "label": "স্মার্ট ভূমি সেবা", "description": "ভূমি কর ও নামজারি সহায়তা", "icon": "Landmark", "color": "green" }
+    ]
+  }
+}
