@@ -90,7 +90,7 @@ export default function HomePage() {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className={`glass rounded-2xl p-5 hover:bg-white/12 transition-all duration-300 hover:-translate-y-1 ${i === 1 ? "mt-6" : ""} ${i === 2 ? "-mt-6" : ""}`}
+                  className={`glass rounded-2xl p-5 hover:bg-white/12 transition-all duration-300 hover:-translate-y-1 ${i % 2 === 1 ? "mt-8" : ""}`}
                 >
                   <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center mb-3`}>
                     <item.icon className="w-5 h-5 text-white" />
