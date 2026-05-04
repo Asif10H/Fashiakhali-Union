@@ -36,9 +36,12 @@ export default function Footer() {
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-500 via-teal-400 to-emerald-500" />
 
       {/* Background pattern */}
-      <div className="absolute inset-0 opacity-[0.03]" style={{
-        backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-      }} />
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+        }}
+      />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
@@ -63,11 +66,11 @@ export default function Footer() {
             <div className="space-y-2.5">
               <div className="flex items-center gap-2.5 text-sm text-slate-400">
                 <Phone className="w-4 h-4 text-emerald-400" />
-                <span>01866913166</span>
+                <span>শীঘ্রই আপডেট করা হবে</span>
               </div>
               <div className="flex items-center gap-2.5 text-sm text-slate-400">
                 <Mail className="w-4 h-4 text-emerald-400" />
-                <span>aclandchakaria@gmail.com</span>
+                <span>[শীঘ্রই আপডেট করা হবে]</span>
               </div>
               <div className="flex items-center gap-2.5 text-sm text-slate-400">
                 <MapPin className="w-4 h-4 text-emerald-400" />
@@ -137,8 +140,10 @@ export default function Footer() {
             সংরক্ষিত।
           </p>
           <p className="text-xs text-slate-500 flex items-center gap-1">
-            গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
-            <Heart className="w-3 h-3 text-emerald-500 inline" />
+            Developed  by{" "}
+            <a href="https://www.facebook.com/Asif10H/" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-emerald-300 transition-colors">
+              Habibullah Asif
+            </a>
           </p>
         </div>
       </div>
