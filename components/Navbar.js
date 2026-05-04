@@ -55,7 +55,7 @@ export default function Navbar() {
                 }`}
               />
             </div>
-            <div className="hidden sm:block">
+            <div>
               <h1
                 className={`text-base lg:text-lg font-bold leading-tight transition-colors duration-300 font-[family-name:var(--font-display)] ${
                   scrolled ? "text-emerald-800" : "text-white"
