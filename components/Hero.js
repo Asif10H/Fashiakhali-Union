@@ -80,7 +80,7 @@ export default function Hero() {
           </div>
 
           {/* Right Side — Info Cards & Live Visitor Count */}
-          <div className="hidden lg:flex flex-col gap-6">
+          <div className="flex flex-col gap-6 mt-12 lg:mt-0 w-full max-w-md sm:max-w-xl lg:max-w-none mx-auto">
             <div className="grid grid-cols-2 gap-4">
               {[
                 { icon: TreePine, label: "বন্যপ্রাণী অভয়ারণ্য", value: "ফাঁসিয়াখালী", color: "from-emerald-400/20 to-teal-400/20" },
